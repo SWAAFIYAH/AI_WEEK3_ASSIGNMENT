@@ -1,3 +1,27 @@
+# Ignore model files
+*.h5
+*.hdf5
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
-_pycache__/
-*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+tf-env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden system folders
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+*.swp
